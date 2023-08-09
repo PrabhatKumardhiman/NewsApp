@@ -5,6 +5,7 @@ import NewsContainer from "./component/NewsContainer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 
+// will not work on any other port rather than localhost
 export default class App extends Component {
   constructor() {
     super()
